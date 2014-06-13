@@ -4,8 +4,8 @@
     {
       "type": "Feature",
       "properties": {
-        "length": 8040,
-        "stroke": "red",
+		"title": "Slow Roll #1 - 6,8 km",
+        "stroke": "#8A2908",
         "stroke-width": 2
       },
       "geometry": {
@@ -529,9 +529,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Start",
+        "title": "Start SR#1 - Hovrättstorget 17:30",
         "tid": "2014-06-11 17:30",
-        "marker-color": "#FF0000",
+        "marker-color": "#8A2908",
         "marker-symbol": "bicycle",
         "marker-size": "large",
         "stroke": ""
@@ -547,9 +547,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Cykelköket",
+      	"title": "Mål - Cykelköket",
         "tid": "2014-06-11 18:30",
-        "marker-color": "#FF0000",
+        "marker-color": "#8A2908",
         "marker-symbol": "warehouse",
         "marker-size": "large"
       },
