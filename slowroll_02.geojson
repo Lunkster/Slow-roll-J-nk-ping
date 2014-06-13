@@ -4,9 +4,9 @@
     {
       "type": "Feature",
       "properties": {
+      	"title": "Slow Roll #2 - 10,2 km",
         "stroke": "red",
-        "stroke-width": 2,
-        "name": "Slow Roll #2"
+        "stroke-width": 2
       },
       "geometry": {
         "type": "LineString",
@@ -425,7 +425,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Start",
+        "title": "Start SR#2 - Cykelköket 18:00",
         "tid": "2014-06-25 18:00",
         "marker-color": "#FF0000",
         "marker-symbol": "bicycle",
@@ -443,7 +443,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Piren",
+        "title": "Mål - Piren",
         "tid": "2014-06-25 19:00",
         "marker-color": "#FF0000",
         "marker-symbol": "alcohol-shop",
