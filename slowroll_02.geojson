@@ -6,9 +6,7 @@
       "properties": {
         "stroke": "red",
         "stroke-width": 2,
-        "name": "Slow Roll #2",
-        "tid": "",
-        "marker-color": ""
+        "name": "Slow Roll #2"
       },
       "geometry": {
         "type": "LineString",
