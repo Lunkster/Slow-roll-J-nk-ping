@@ -19,7 +19,6 @@
 
   <body>
   <div id='map'></div>
-    
     <script>
 
 	var map = L.mapbox.map('map', 'lunken.iccg974d')
@@ -33,32 +32,23 @@
 		.addTo(map);
 	
 	L.control.locate({
-       setView: true, 
-       locateOptions: {
-               maxZoom: 15
-	}}).addTo(map);
+		setView: true, 
+		locateOptions: {
+			maxZoom: 15
+		}}).addTo(map);
 	
 	// create a layer control
-    // add the base layers
-    var baseLayers = {
-    };
+	// add the base layers
+	var baseLayers = {};
     
-    // add the overlays
-    var overlays = {
-        "Slow Roll #2 - 140625": slowroll2,
-        "Slow Roll #1 - 140611": slowroll1
-    };
+	// add the overlays
+	var overlays = {
+		"Slow Roll #2 - 140625": slowroll2,
+		"Slow Roll #1 - 140611": slowroll1
+	};
 
-    // add the layers to a layer control
-    L.control.layers(baseLayers, overlays).addTo(map);
-        
-    myLayers.setGeoJSON(slowroll1, slowroll2);
-    myLayers.on('mouseover', function(e) {
-		e.layer.openPopup();
-	});
-	myLayer.on('mouseout', function(e) {
-		e.layer.closePopup();
-	});
+	// add the layers to a layer control
+	L.control.layers(baseLayers, overlays).addTo(map);
 		
 	</script>
   </body>
